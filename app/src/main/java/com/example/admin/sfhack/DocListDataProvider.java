@@ -31,15 +31,15 @@ public class DocListDataProvider {
         sharedpreferences = context.getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
         editor = sharedpreferences.edit();
 
-        List<DocumentInfo> requiredList;
-        List<DocumentInfo> pendingList;
-        List<DocumentInfo> completedList;
-
         Gson gson = new Gson();
 
-        String response = sharedpreferences.getString(SignatureRequiredList , "");
-        //String response2 = sharedpreferences.getString("doc1" , "");
-        ArrayList<DocumentInfo> itemsList = gson.fromJson(response, new TypeToken<List<DocumentInfo>>(){}.getType());
+        String requiredDocument = sharedpreferences.getString(SignatureRequiredList , "");
+        String pendingDocument = sharedpreferences.getString(DocumentPendingList , "");
+        String completedDocument = sharedpreferences.getString(DocumentCompletedList , "");
+
+        ArrayList<DocumentInfo> requiredDocumentList = gson.fromJson(requiredDocument, new TypeToken<List<DocumentInfo>>(){}.getType());
+        ArrayList<DocumentInfo> pendingDocumentList = gson.fromJson(pendingDocument, new TypeToken<List<DocumentInfo>>(){}.getType());
+        ArrayList<DocumentInfo> completedDocumentList = gson.fromJson(completedDocument, new TypeToken<List<DocumentInfo>>(){}.getType());
 
         //itemsList.add(new DocumentInfo(title, link));
 
@@ -49,18 +49,20 @@ public class DocListDataProvider {
         HashMap<String, List<String>> listDetail = new LinkedHashMap<>();
 
         List<String> completed = new ArrayList<String>();
-        completed.add("doc 1");
-        completed.add("doc 2");
-        completed.add("doc 3");
-        completed.add("doc 4");
-        completed.add("doc 5");
+        for(int i = 0; i < completedDocumentList.size(); i++){
+            completed.add(completedDocumentList.get(i).getDocTitle());
+        }
+
+//        completed.add("doc 1");
+//        completed.add("doc 2");
+//        completed.add("doc 3");
+//        completed.add("doc 4");
+//        completed.add("doc 5");
 
         List<String> signatureRequired = new ArrayList<String>();
 
-        System.out.println("***** size: " + itemsList.size());
-        for(int i = 0; i < itemsList.size(); i++){
-            signatureRequired.add(itemsList.get(i).getDocTitle());
-            System.out.println("******** array at: " + i + " = " + itemsList.get(i).getDocTitle());
+        for(int i = 0; i < requiredDocumentList.size(); i++){
+            signatureRequired.add(requiredDocumentList.get(i).getDocTitle());
         }
 //        signatureRequired.add(response);
 //        signatureRequired.add(response2);
@@ -70,11 +72,15 @@ public class DocListDataProvider {
 //        signatureRequired.add("doc 5");
 
         List<String> pendingAgentAction = new ArrayList<String>();
-        pendingAgentAction.add("doc 1");
-        pendingAgentAction.add("doc 2");
-        pendingAgentAction.add("doc 3");
-        pendingAgentAction.add("doc 4");
-        pendingAgentAction.add("doc 5");
+        for(int i = 0; i < pendingDocumentList.size(); i++){
+            pendingAgentAction.add(pendingDocumentList.get(i).getDocTitle());
+        }
+
+//        pendingAgentAction.add("doc 1");
+//        pendingAgentAction.add("doc 2");
+//        pendingAgentAction.add("doc 3");
+//        pendingAgentAction.add("doc 4");
+//        pendingAgentAction.add("doc 5");
 
         List<String> expiring = new ArrayList<String>();
 

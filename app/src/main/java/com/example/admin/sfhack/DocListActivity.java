@@ -25,14 +25,6 @@ public class DocListActivity extends AppCompatActivity {
 //        setContentView(R.layout.activity_doc_list);
 //    }
 
-    public static final String MyPREFERENCES = "MyPrefs" ;
-    public static final String SignatureRequiredList = "SignatureRequiredList";
-    public static final String DocumentPendingList = "DocumentPendingList";
-    public static final String DocumentCompletedList = "DocumentCompletedList";
-
-    SharedPreferences sharedpreferences;
-    SharedPreferences.Editor editor;
-
     ExpandableListView expandableListView;
     ExpandableListAdapter expandableListAdapter;
     List<String> expandableListTitle;
@@ -49,15 +41,6 @@ public class DocListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doc_list);
 
-        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
-        //editor = sharedpreferences.edit();
-
-        Gson gson = new Gson();
-        String response = sharedpreferences.getString(SignatureRequiredList , "");
-        ArrayList<DocumentInfo> itemsList = gson.fromJson(response,
-                new TypeToken<List<DocumentInfo>>(){}.getType());
-
-        System.out.println("***** size2: " + itemsList.size());
         listProvider = new DocListDataProvider();
 
         expandableListView = (ExpandableListView) findViewById(R.id.expandableListView);
