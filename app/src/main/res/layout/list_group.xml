@@ -5,16 +5,19 @@
 
     <ImageView
         android:id="@+id/listImage"
-        android:layout_width="match_parent" android:layout_weight="80"
         android:src="@mipmap/high_priority"
-        android:layout_height="match_parent" />
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:scaleType="fitCenter"/>
 
     <TextView
         android:id="@+id/listTitle" android:layout_weight="20"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="10dp"
-        android:paddingLeft="25dp"
-        android:paddingBottom="10dp"
-        android:text="TextView" />
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        />
 </LinearLayout>

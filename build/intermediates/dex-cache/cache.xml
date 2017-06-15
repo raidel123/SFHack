@@ -3,21 +3,39 @@
 
     <item
         is-multidex="true"
-        jar="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\SF\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="83eab026ee58694910a820e81eb258d01aa4a1b2">
-        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e5ca2dfde4e27607333f0cffccb92b776f173660/classes.dex" />
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\SF\AndroidStudioProjects\SFHack3\SFHack\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_67fe8c1b35f7cbec65dba2b50c930afe369e14bf\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\SF\AndroidStudioProjects\SFHack3\SFHack\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="10217624464c13bcf2eabc9297e09ab3d5740a8e">
+        <dex dex="C:\Users\SF\AndroidStudioProjects\SFHack3\SFHack\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_11172aaae02d7e08565fce8544305aae9c25e11a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SF\.android\build-cache\44db1eeb14b75d160dd2e3d45f289c6d9f069173\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\SF\AndroidStudioProjects\SFHack3\SFHack\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f964137f0d4e3ef24444b6a62ea3cb2dac77893f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\SF\AndroidStudioProjects\SFHack3\SFHack\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9ebc96d14357ac94cdbef56cf58ccd8bed6c9405/classes.dex" />
+        <dex dex="C:\Users\SF\AndroidStudioProjects\SFHack3\SFHack\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_32f10a2d900eaf635866f2639cbb0ad48e27bc66\classes.dex" />
     </item>
 
 </items>
