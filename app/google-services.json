@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393741088513",
+    "project_id": "firebase-sfhack"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393741088513:android:d7c29c8512df9850",
+        "android_client_info": {
+          "package_name": "com.example.admin.sfhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393741088513-e1iofg9gkk4d3s9v39uv4sk40mdlra49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKv-zbw1CMJZkrD58sRK6j8JUk0KVG3Xw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

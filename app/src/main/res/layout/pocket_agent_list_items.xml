@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:scaleType="fitCenter"
+        />
+    <TextView
+        android:id="@+id/menuText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

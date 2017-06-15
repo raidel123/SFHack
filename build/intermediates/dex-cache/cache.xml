@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e28c3e67d3657f630ca720bb56e2d7caf3bfe7d2">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e5ca2dfde4e27607333f0cffccb92b776f173660/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.2_564f790d679e3d6b9b42b28fe4c0b6cb85057f3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/7ae12dcfabf64301e77e56a8ab27ca20c8bdf2d1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09190a1dee39d994bd6c151b2c9793d01db72447">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1211c3b024a26e3c9c2c13636e836793aae40afa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/fcd8dce332c5709f5df26cce2f2497fd99cf9d09/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="972004dcec5aeb1d9f4c06a6d90e9b5b674b9aa3">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2a3364951f46f45648e599840974473fdf674bae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/0448158ae4feabafa746ba61a43dabe63acfc587/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bade648cc46af0ffc636586806c60dba1b7fdf8">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2cfffaa6c63fe3f308114016ba31567ced2fb869/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/af22f2b67f2acd35625e2639455d4d0563871b6f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d68bbf92de9721b02a31a3833abfdc90144c7e39">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_098f1a1f1596e922855b5873e6ff3fadf561d320/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/d5c0af54b96706f6df3eb2f2887ba59991d1ef1f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="472812641483188b3121f3294d7da47df3c14d33">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bd04ef45aaea19f3d94ab20b408f42f027e35a76/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/59c63d73efeed8b2dbe5761293e6533e02fd9fb4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98c1221c29c1a146edc6be342039cc242f9773c5">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0cace1ad57d11918947c578c7f769206533b3140/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/032070258dfc94370a9de80fd06c0b93f75860ba/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2484ee9a66188155c9c792ff279d4a34c8e1d22e">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eae4d3c6f885cfefaba7cbdf2defb5e41554e0fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/ee1b3db59c58a9d46a1da2728801e0358896d878/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="432ae8736f68442ef8d6e5c43631081aaa298a34">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_947bfcbfaf8938d38dc08a21f3505574b2542524/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/ec31c08b34d898faf6e9b0910e5268f1b4503796/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2018b324dbe57d9a1304a0b6a97ece59de258da6">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5eace54977bf56eb73b3cfee3deaf733e750da67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/0dc20151672c7a35a7e8da14edbd82cab5c90893/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30854fe0b2a6e495a821d8f41f52c0a1d18d8d2a">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_00791108323feb5bdf118ef3fb9c5e2b1df8052c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/74566613a04b36a73df6cc0bc51252d8939b52cf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a00d7f8576a10b66449fbe4ac16f8de2fa4d683f">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dc1ce1529c845ae3f8bb045a9c7f652c99fa98f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/6612f815eaf3d4112b24ffbaa5cd7a775a3b28c8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30704152908c78f80b1fa72d3815118d102a5f07">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ae404501116a399f14285c443b8852c2e95326ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/f1d9c73defeee7faf3e8021dbff9d7d06ecdfbfe/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ebeb308b93a2a676f6477461d9cfb5bbb37c7d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/676c0e93b5d852174bdb480749210e8bdf414fcd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f351ee2e10aaf23a13b0fcd19788683d7dce6192">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eb724c15810fd72a73c39565f4c2bafde0cdce31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/0163b9b96af58dcd896c15f8348251d17f983fae/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b985bd4eb1abd0e7e1f49c9cdf80a0d3563bad2a">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_24d9a3947e3d1cfe6ec26bd2628332ae627f1a0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/78c337f958c04119449ef98393cacd3eea9b57b9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da7ddb1b984e766c503ade0bc7e19001f56691ca">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d2ce6cb95fd7ebd68c30b226f3904dca120f60b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/6675d5780a195cf9c798cb3e5bc109a7f0718442/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a6daff13bf4ff813ad6686440c9c116e3bbd7630">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d9d6e3bbd8a6b29df66f2ca2e81663942b683b3b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/b31094c4d1512c557a6f4041d85a917af525c62a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ce1b9865e1e9baf2c9e03b4953ef2531db32d53">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_260ed22402e12e59f09f3ca5030e92179eda6705/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/3ccbc4ec44d7cea102e0713ce4d7d8f61d16e492/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6688016b1c2ab0daad89bb59ca9b7acbd1c80412">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_424f30a64be78a22a21a5472e8b35c43693d1f7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/922c6343d4deed1520346e3d87a8b03dbfa3e5aa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d61d03a79b7aa9cd89ab27e532e574ebc09f1bcb">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c84cc87b90f339224c32b3ccf23fb59320039309/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/652e0f640c75e7a7a59f2b765830df1f3fe94308/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2306e0665b3c407099437d9332e8528c2bfd5f99">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2abd607b1b1aec4640a8bad69a7f6b8bcbc8224f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/d0325989687d4fe2f16e0ad46f5aed08bc695bb4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5af721e99ea8e51ab4c68975048641f01aca77b2">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e2f194654211e3a87a8cb046f4cda7703208b33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/fec956e3048b7186f25a3b26bae4e37aa4efa300/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a67e5fbb2dacbe75c0a942e9dfec7a49803b941e">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_47b6b2c83ac80980b9d5f26c0e57c2e2da53a7ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/547a9f0430997c82b479f1a4033bcde089602782/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aba37a3eec04e174dc59f00cf4bd7992061d847a">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_30038cbcab8de990f2899f7e8d6cc70ebcba673d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/e01433e11d0214fbf1baed41ad7a55fd11f287fa/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c098516db3cf935b4a45dc4dfa95cf71d751961">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a93e06c5a1593fc55be3e8045511f22715d2784e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/767d07f7d1161070fcbecea2cbfdfa25be69fc5b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eaac8b02a2373e238cab6fc514e4667204b64191">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fbb26dbc651d0f13abc396c75b624cc7faa243d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9ebc96d14357ac94cdbef56cf58ccd8bed6c9405/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/cfaf189eb2be6815d2ddce2282afd02a8790e5f5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af26875652e085cd14713ff655bc3aa07960d459">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5dad5821342b18678d13a46d387f761a335f362b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/cec2e12e6961c831c1f6345d0e76df4c60f0d2f9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="022615f683d7cdff31a236e7a31e1048b51196eb">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_965627d3db7e48c83550d9a101f730fc062d4924/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/5b235e2b74a4734f3cfb04d5eb14a445e26c9665/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ef65e4780d67d06abddd6e2d15dd4e0519ad8d8a">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f92afa936c6958839a07ba0f28672f239339ee93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/029972730265c3477b0c0022dbb41a9289a46c9a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aab99bdd851187a192253e401a9d2da8e2e3e6d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/c581f60f1e836f505e89cf5e9b55f9315a045c54/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e5e6d0c253cc142bd6a586b3fa0bc9bc9024a7d">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a04a6eec5de858773457a4a98a6b848bfbf7561a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/db7e36800200a87c412eb056f842f774fc85d447/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc6c0dae1d2dbb08ba3da08479ef40b501af1485">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_399d738b268b76789c833a38f1f4c853b66dad20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/a29d4173cdff2f4cf97688ce6885f448eb457e5e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e700cbcd6de81819f051434ef97c65e1390bf2d9">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d753a5cf8f37579f90379ed77806e612141f56b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/239138e5d9442be70b896e40429f37d4a80ff6e5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5d08eea1d3853927600d2507c7ca47a31c3df5d0">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_893f927ba68c0b325c29e4249282a3417da3332f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/5048751d1cec5870867f8bd54ba20a2490ac5682/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="89e585298b910ee100d0f0f1e7f65520aab37931">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8dc55e8f041957742938c0c60f8bc3f4174b0b7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/f8111c9031b298560c290a9239fb45fc9d5d955e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f43d6c042ee8eb48fa7606da4d1034d472a43cd">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b7aea8cd2e08d7b89d5795566cad3dcb5ea0884c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/ccc66febcd0a5f86a558eacba1443481264d49bc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2299e7e6e579fa158fc1135b9e62f5b56b6b0aa8">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8f255a4310c20d6c064ad14a557389fedd9faf96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/58f0e7b96ee2ebfe38f05772d09a0ee67a5c939f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1f3918498c376f300adf4e42e5e983e9c9a60ab1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/6d609b2b257b2670563f063c27341d2819f1a4cf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e39662b49ef66950c0941aa5fd4c49346a7c341">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0ebf658a14fb59942584f6007e191b05fbdedbf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/c1d0165b5de27be9002bda23ad81acc1bdae5d61/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ffbd024a5fd5efda6714beeaa97314b43563f1c">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_82389ca02fe1ca8a45176d76a496d01478c5a936/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/c8250392ebf1780581fd44e18fd793858a3cee9b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f58a75f1d77aea54d4a3c6bad03fa09df438285e">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2e7cd38c61aa620646dee39dba2fbf18793ac0dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/bfba8f8c1c994e66f779ee2a18508e8eac8758db/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8723f4a84a0293f5e9ee76193e6bfec47137f048">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_24182517f70bf11628fc408fb42e0808e438d52f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/6631e803a43d9b0c650eec83aada7aed623adf69/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a5f50e080b426327fe1851f6f7b5f836bff6ac9f">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_47428eee4401bbedccc565098340ed849f1881cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/c1770881886a9810c73124b2c33483639453f82a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="700b670ed3f9cf4b240081993c6004817866985a">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_84ca88c24667309b4fb54c4f1684f941ca5656c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/1c19709cc1ac8ab91e90c2a67e643107e18fcb16/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d410043f93e71bb0179ba86b85726dd080f14b79">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_db0422879a5989ac6010ccc9cd059d0269e962fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/b2624e44c3ce766755e66c9993cb00ead288f088/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="20051ea387377125db14d6c0966662019f0a897c">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2f71fa626b55665bbb421c32b54bbda65c09ad56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/26934f08436d36e76711053d9d29a447e2d30e48/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_47001035c8ba0b6d1618abd9106de53488090336/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/290cf361953922362719ab4ad19617bb482f48c9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_41634a64845391b9c6b5b46437d2a71e6efac227/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/a6965b9e340397123101b633ab1a5b3721292d87/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d74bfb5306aee8dbfa746b48842f87c01c64f6ac">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1488d7bba5b7fcd33a5b37d9059d2e27e295df54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/b8ed6f16bca356b19d2ffc5fb42c00f96df2a4be/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e72c498ef3e345135b6bfdf7fc83c6b905228ade">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ea470bf78a4a1a716064211aba85bd09cf3f16b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/44a16d44f81243732535efedf5e43f148cacfdf5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6dfa77c356a9a8c13ad61253ed95ed3a746527e6">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e851fdab79d1d5677b8a3c0fc6427f342ccee850/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/13bfe6b30561310cb5d9dbffc05bda1d1f9ef4a8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1d71d46e9b2d160e82565bb55f67e0bac1aee3e">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_79305d99b4f409c3ed648f66e6252815097de98f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/843104b351df2bbba518f89b83e0e7bfc1079c40/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5687d5d0a5cc1113f84a0477d8fdd3b91222d26e">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a14cbef501c750b906d996771ce6e4abb6ee7778/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/23728be87c6ada5de349630716105ebce6c82bfb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1dc8abf7fd09c2c993c4f55eb85f477f6ef76f0">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eff1bc76327bf8b0a283ecf887a6a3f49e1a1157/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/c45d2bc653323f56329694ae69667cc98f722ae9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7b0c1662f1e2949e3635c2461a889cf9bd19c52">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8c9b7f08cb43173905fbe2cbd58b396fad782744/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/admin/.android/build-cache/78b32d9bce5bc88558e9d18ee9c797722a7ac28a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a611d7a00671ec4eb3050a21425fae955a38eb8a">
+        <dex dex="/Users/admin/Desktop/SFHackDayGit/SFHack/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7e4d94daf4eaad42e5e3038575b5f885477dad14/classes.dex" />
+    </item>
+
+</items>

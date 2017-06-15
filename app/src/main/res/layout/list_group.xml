@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent" android:weightSum="100"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/listImage"
+        android:layout_width="match_parent" android:layout_weight="80"
+        android:src="@mipmap/high_priority"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/listTitle" android:layout_weight="20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingBottom="10dp"
+        android:text="TextView" />
+</LinearLayout>
