@@ -26,6 +26,10 @@ public class DocListDataProvider {
     SharedPreferences sharedpreferences;
     SharedPreferences.Editor editor;
 
+    public ArrayList<DocumentInfo> requiredDocumentList;
+    public ArrayList<DocumentInfo> pendingDocumentList;
+    public ArrayList<DocumentInfo> completedDocumentList;
+
     public HashMap<String, List<String>> getData(Context context) {
 
         sharedpreferences = context.getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
@@ -37,9 +41,9 @@ public class DocListDataProvider {
         String pendingDocument = sharedpreferences.getString(DocumentPendingList , "");
         String completedDocument = sharedpreferences.getString(DocumentCompletedList , "");
 
-        ArrayList<DocumentInfo> requiredDocumentList = gson.fromJson(requiredDocument, new TypeToken<List<DocumentInfo>>(){}.getType());
-        ArrayList<DocumentInfo> pendingDocumentList = gson.fromJson(pendingDocument, new TypeToken<List<DocumentInfo>>(){}.getType());
-        ArrayList<DocumentInfo> completedDocumentList = gson.fromJson(completedDocument, new TypeToken<List<DocumentInfo>>(){}.getType());
+        requiredDocumentList = gson.fromJson(requiredDocument, new TypeToken<List<DocumentInfo>>(){}.getType());
+        pendingDocumentList = gson.fromJson(pendingDocument, new TypeToken<List<DocumentInfo>>(){}.getType());
+        completedDocumentList = gson.fromJson(completedDocument, new TypeToken<List<DocumentInfo>>(){}.getType());
 
         //itemsList.add(new DocumentInfo(title, link));
 
@@ -94,4 +98,16 @@ public class DocListDataProvider {
         return listDetail;
 
     };
+
+    public List<DocumentInfo> getRequiredDocumentList() {
+        return requiredDocumentList;
+    }
+
+    public List<DocumentInfo> getPendingDocumentList() {
+        return pendingDocumentList;
+    }
+
+    public List<DocumentInfo> getCompletedDocumentList() {
+        return completedDocumentList;
+    }
 }

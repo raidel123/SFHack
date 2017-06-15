@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -53,9 +54,7 @@ public class DocListActivity extends AppCompatActivity {
 
             @Override
             public void onGroupExpand(int groupPosition) {
-                Toast.makeText(getApplicationContext(),
-                        expandableListTitle.get(groupPosition) + " List Expanded.",
-                        Toast.LENGTH_SHORT).show();
+
             }
         });
 
@@ -63,9 +62,7 @@ public class DocListActivity extends AppCompatActivity {
 
             @Override
             public void onGroupCollapse(int groupPosition) {
-                Toast.makeText(getApplicationContext(),
-                        expandableListTitle.get(groupPosition) + " List Collapsed.",
-                        Toast.LENGTH_SHORT).show();
+
 
             }
         });
@@ -75,16 +72,29 @@ public class DocListActivity extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
 
+                List<DocumentInfo> tempArray;
+
+                if (groupPosition == 0) {
+                    tempArray = listProvider.getRequiredDocumentList();
+                } else if (groupPosition == 1) {
+                    tempArray = listProvider.getPendingDocumentList();
+                } else {
+                    tempArray = listProvider.getCompletedDocumentList();
+                }
+
+                String url = tempArray.get(childPosition).getDocUrl();
+
+
+                List<DocumentInfo> tempArray2 = listProvider.getCompletedDocumentList();
+
+                DocumentInfo tempDocInfo = tempArray.remove(childPosition);
+                tempArray2.add(tempDocInfo);
+
                 Intent intent = new Intent(getApplicationContext(), DocWebActivity.class);
+                intent.putExtra("url", url);
+                System.out.println("***** doc list url: " + url);
                 startActivity(intent);
-//                Toast.makeText(
-//                        getApplicationContext(),
-//                        expandableListTitle.get(groupPosition)
-//                                + " -> "
-//                                + expandableListDetail.get(
-//                                expandableListTitle.get(groupPosition)).get(
-//                                childPosition), Toast.LENGTH_SHORT
-//                ).show();
+//
                 return false;
             }
         });
