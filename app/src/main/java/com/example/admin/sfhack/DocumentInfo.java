@@ -36,4 +36,22 @@ public class DocumentInfo implements Serializable {
     public void setDocUrl(String docUrl) {
         this.docUrl = docUrl;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        DocumentInfo that = (DocumentInfo) o;
+
+        return docUrl.equals(that.docUrl);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = docTitle.hashCode();
+        result = 31 * result + docUrl.hashCode();
+        return result;
+    }
 }

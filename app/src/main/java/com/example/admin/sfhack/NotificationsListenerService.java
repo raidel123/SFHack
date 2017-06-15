@@ -51,8 +51,8 @@ public class NotificationsListenerService extends GcmListenerService {
                     new TypeToken<List<DocumentInfo>>(){}.getType());
 
             itemsList.add(new DocumentInfo(message, link));
-            String json = gson.toJson(itemsList);
 
+            String json = gson.toJson(itemsList);
             editor.putString(SignatureRequiredList, json);
             editor.apply();
 
@@ -71,13 +71,24 @@ public class NotificationsListenerService extends GcmListenerService {
         }else if (title.equals("Document Completed")){
             Gson gson = new Gson();
             String response = sharedpreferences.getString(DocumentCompletedList , "");
+            String responsePending = sharedpreferences.getString(DocumentPendingList , "");
             ArrayList<DocumentInfo> itemsList = gson.fromJson(response,
                     new TypeToken<List<DocumentInfo>>(){}.getType());
 
-            itemsList.add(new DocumentInfo(message, link));
+            ArrayList<DocumentInfo> itemsListPending = gson.fromJson(responsePending,
+                    new TypeToken<List<DocumentInfo>>(){}.getType());
 
-            String json = gson.toJson(itemsList);
-            editor.putString(DocumentCompletedList, json);
+            DocumentInfo addItem = new DocumentInfo(message, link);
+            itemsList.add(addItem);
+
+            if(itemsListPending.indexOf(addItem) != -1)
+                itemsListPending.remove(itemsListPending.indexOf(addItem));
+
+            String completedJson = gson.toJson(itemsList);
+            String pendingJson = gson.toJson(itemsListPending);
+
+            editor.putString(DocumentCompletedList, completedJson);
+            editor.putString(DocumentPendingList, pendingJson);
             editor.apply();
 
         }

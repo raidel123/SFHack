@@ -32,6 +32,14 @@ public class DocListActivity extends AppCompatActivity {
     HashMap<String, List<String>> expandableListDetail;
     DocListDataProvider listProvider;
 
+    public static final String MyPREFERENCES = "MyPrefs" ;
+    public static final String SignatureRequiredList = "SignatureRequiredList";
+    public static final String DocumentPendingList = "DocumentPendingList";
+    public static final String DocumentCompletedList = "DocumentCompletedList";
+    public static final String Test = "Test";
+
+    SharedPreferences sharedpreferences;
+    SharedPreferences.Editor editor;
 
     protected ExpandableListView getExpandableListView() {
         return expandableListView;
@@ -43,6 +51,9 @@ public class DocListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_doc_list);
 
         listProvider = new DocListDataProvider();
+
+        sharedpreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+        editor = sharedpreferences.edit();
 
         expandableListView = (ExpandableListView) findViewById(R.id.expandableListView);
         expandableListDetail = listProvider.getData(getApplicationContext());
@@ -72,23 +83,53 @@ public class DocListActivity extends AppCompatActivity {
             public boolean onChildClick(ExpandableListView parent, View v,
                                         int groupPosition, int childPosition, long id) {
 
-                List<DocumentInfo> tempArray;
+                List<DocumentInfo> requiredTempList;
+                List<DocumentInfo> pendingTempList;
+                List<DocumentInfo> completedTempList;
+                Gson gson = new Gson();
+                String url;
+
 
                 if (groupPosition == 0) {
-                    tempArray = listProvider.getRequiredDocumentList();
+                    requiredTempList = listProvider.getRequiredDocumentList();
+                    url = requiredTempList.get(childPosition).getDocUrl();
+
+                    List<DocumentInfo> tempArray2 = listProvider.getPendingDocumentList();
+
+                    DocumentInfo tempDocInfo = requiredTempList.remove(childPosition);
+                    tempArray2.add(tempDocInfo);
+
+                    String requiredJson = gson.toJson(requiredTempList);
+                    String pendingJson = gson.toJson(tempArray2);
+                    editor.putString(SignatureRequiredList, requiredJson);
+                    editor.putString(DocumentPendingList, pendingJson);
+
+                    editor.apply();
                 } else if (groupPosition == 1) {
-                    tempArray = listProvider.getPendingDocumentList();
+                    pendingTempList = listProvider.getPendingDocumentList();
+                    url = pendingTempList.get(childPosition).getDocUrl();
+
+//                    List<DocumentInfo> tempArray2 = listProvider.getCompletedDocumentList();
+//
+//                    DocumentInfo tempDocInfo = tempArray.remove(childPosition);
+//                    tempArray2.add(tempDocInfo);
                 } else {
-                    tempArray = listProvider.getCompletedDocumentList();
+                    completedTempList = listProvider.getCompletedDocumentList();
+                    url = completedTempList.get(childPosition).getDocUrl();
+
+//                    List<DocumentInfo> tempArray2 = listProvider.getPendingDocumentList();
+//                    if(tempArray2.indexOf(completedTempList.get(childPosition)) != -1)
+//                        tempArray2.remove(tempArray2.indexOf(completedTempList.get(childPosition)));
+//
+//                    String pendingJson = gson.toJson(tempArray2);
+//                    editor.putString(DocumentPendingList, pendingJson);
+//                    editor.apply();
+
+                    //DocumentInfo tempDocInfo = tempArray2.remove(tempArray2.indexOf(tempArray.get(childPosition)));
+                    //tempArray.add(tempDocInfo);
                 }
 
-                String url = tempArray.get(childPosition).getDocUrl();
-
-
-                List<DocumentInfo> tempArray2 = listProvider.getCompletedDocumentList();
-
-                DocumentInfo tempDocInfo = tempArray.remove(childPosition);
-                tempArray2.add(tempDocInfo);
+                editor.commit();
 
                 Intent intent = new Intent(getApplicationContext(), DocWebActivity.class);
                 intent.putExtra("url", url);
@@ -100,7 +141,9 @@ public class DocListActivity extends AppCompatActivity {
         });
     }
 
-
-
-
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+        startActivity(intent);
+    }
 }

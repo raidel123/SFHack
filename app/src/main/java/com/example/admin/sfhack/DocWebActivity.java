@@ -1,5 +1,6 @@
 package com.example.admin.sfhack;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
@@ -27,5 +28,11 @@ public class DocWebActivity extends AppCompatActivity {
         webView.loadUrl(url);
 
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), DocListActivity.class);
+        startActivity(intent);
     }
 }
